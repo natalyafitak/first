@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <b>Id:</b>
+  <%= @cmsmenu.id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @cmsmenu.title %>
+</p>
+
+<p>
+  <b>Parent ID:</b>
+  <%= @cmsmenu.cmsmenu_id %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%= @cmsmenu.url %>
+</p>
+
+
+<%= link_to 'Edit', edit_cmsmenu_path(@cmsmenu) %> |
+<%= link_to 'Back', cmsmenus_path %>

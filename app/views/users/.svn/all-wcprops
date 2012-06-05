@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot-ss/train/LV-063/!svn/ver/1228/Web%20UI/NewCMS/app/views/users
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot-ss/train/LV-063/!svn/ver/1224/Web%20UI/NewCMS/app/views/users/show.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot-ss/train/LV-063/!svn/ver/1104/Web%20UI/NewCMS/app/views/users/index.html.erb
+END
+checklogin.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot-ss/train/LV-063/!svn/ver/1228/Web%20UI/NewCMS/app/views/users/checklogin.html.erb
+END

@@ -1,0 +1,11 @@
+class Xfold < ActiveRecord::Base
+  def self.root_nodes
+    find(:all, :conditions => 'parent_id IS NULL')
+  end
+
+  def self.find_children(start_id = nil)
+    start_id.to_i == 0 ? root_nodes : find(start_id).direct_children
+    attr_accessible :id, :name, :parentid
+  end
+attr_accessible :id, :name, :parentid
+end

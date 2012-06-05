@@ -1,0 +1,21 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 34
+/svnroot-ss/train/LV-063/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svnroot-ss/train/LV-063/!svn/ver/2131/Web%20UI/NewCMS
+END
+Gemfile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svnroot-ss/train/LV-063/!svn/ver/1832/Web%20UI/NewCMS/Gemfile
+END
+Gemfile.lock
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot-ss/train/LV-063/!svn/ver/1832/Web%20UI/NewCMS/Gemfile.lock
+END

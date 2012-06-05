@@ -1,0 +1,45 @@
+<%= form_for(@newslistpage) do |f| %>
+  <% if @newslistpage.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@newslistpage.errors.count, "error") %> prohibited this newslistpage from being saved:</h2>
+
+      <ul>
+      <% @newslistpage.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :contenturl %><br />
+    <%= f.text_field :contenturl %>
+  </div>
+  <div class="field">
+    <%= f.label :imageurl %><br />
+    <%= f.file_field :imageurl %>
+  </div>
+  <div class="field">
+    <%= f.label :anounce %><br />
+    <%= f.text_field :anounce %>
+  </div>
+  <div class="field">
+    <%= f.label :dateofnews %><br />
+    <%= f.datetime_select :dateofnews %>
+  </div>
+  <div class="field">
+    <%= f.label :pageid %><br />
+    <%= f.number_field :pageid %>
+  </div>
+  <div class="field">
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

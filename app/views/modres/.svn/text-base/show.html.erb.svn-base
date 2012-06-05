@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @modre.id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @modre.name %>
+</p>
+
+<p>
+  <b>Version:</b>
+  <%= @modre.version %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @modre.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_modre_path(@modre) %> |
+<%= link_to 'Back', modres_path %>

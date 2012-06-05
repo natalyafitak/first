@@ -1,0 +1,39 @@
+<h1>Listing pagesviews</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Title</th>
+    <th>Content</th>
+    <th>Createdate</th>
+    <th>Author</th>
+    <th>Status</th>
+    <th>Parent</th>
+    <th>Modres</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @pagesviews.each do |pagesview| %>
+  <tr>
+    <td><%= pagesview.id %></td>
+    <td><%= pagesview.name %></td>
+    <td><%= pagesview.title %></td>
+    <td><%= pagesview.content %></td>
+    <td><%= pagesview.createdate %></td>
+    <td><%= pagesview.author %></td>
+    <td><%= pagesview.status %></td>
+    <td><%= pagesview.parent_id %></td>
+    <td><%= pagesview.modres_id %></td>
+    <td><%= link_to 'Show', pagesview %></td>
+    <td><%= link_to 'Edit', edit_pagesview_path(pagesview) %></td>
+    <td><%= link_to 'Destroy', pagesview, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Pagesview', new_pagesview_path %>

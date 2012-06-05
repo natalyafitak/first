@@ -1,0 +1,14 @@
+K 10
+svn:ignore
+V 6
+*.log
+
+K 1
+x
+V 10
+svn:ignore
+K 2
+xx
+V 10
+svn:ignore
+END

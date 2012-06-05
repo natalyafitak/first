@@ -1,0 +1,33 @@
+<%= form_for(@wigt) do |f| %>
+  <% if @wigt.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@wigt.errors.count, "error") %> prohibited this wigt from being saved:</h2>
+
+      <ul>
+      <% @wigt.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.text_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="field">
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </div>
+  <div class="field">
+    <%= f.label :version %><br />
+    <%= f.number_field :version %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

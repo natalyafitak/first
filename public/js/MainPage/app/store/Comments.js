@@ -1,0 +1,13 @@
+Ext.define('CMS.store.Comments',{
+	extend:'Ext.data.Store',
+	model:'CMS.model.Comments',
+	autoLoad:true,
+	proxy:{
+		type:'rest',
+		url:'/comments',
+		format:'json',
+		reader:{
+			root:'comments'
+		}
+	}
+})

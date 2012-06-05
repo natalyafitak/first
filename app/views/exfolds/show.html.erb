@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @exfold.id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @exfold.name %>
+</p>
+
+<p>
+  <b>Parent:</b>
+  <%= @exfold.parent_id %>
+</p>
+
+<p>
+  <b>Path:</b>
+  <%= @exfold.path %>
+</p>
+
+
+<%= link_to 'Edit', edit_exfold_path(@exfold) %> |
+<%= link_to 'Back', exfolds_path %>

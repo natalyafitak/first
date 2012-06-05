@@ -1,0 +1,29 @@
+<h1>Listing modres</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Version</th>
+    <th>Description</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @modres.each do |modre| %>
+  <tr>
+    <td><%= modre.id %></td>
+    <td><%= modre.name %></td>
+    <td><%= modre.version %></td>
+    <td><%= modre.description %></td>
+    <td><%= link_to 'Show', modre %></td>
+    <td><%= link_to 'Edit', edit_modre_path(modre) %></td>
+    <td><%= link_to 'Destroy', modre, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Modre', new_modre_path %>

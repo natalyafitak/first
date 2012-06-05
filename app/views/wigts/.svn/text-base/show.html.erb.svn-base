@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @wigt.id %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @wigt.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @wigt.content %>
+</p>
+
+<p>
+  <b>Version:</b>
+  <%= @wigt.version %>
+</p>
+
+
+<%= link_to 'Edit', edit_wigt_path(@wigt) %> |
+<%= link_to 'Back', wigts_path %>

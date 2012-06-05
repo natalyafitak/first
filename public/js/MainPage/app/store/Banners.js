@@ -1,0 +1,13 @@
+Ext.define('CMS.store.Banners',{
+	extend:'Ext.data.Store',
+	model:'CMS.model.Banner',
+	autoLoad:true,
+	proxy:{
+		type:'rest',
+		url:'/banners',
+		format:'json',
+		reader:{
+			root:'banners'
+		}
+	}
+})

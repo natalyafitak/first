@@ -1,0 +1,33 @@
+<%= form_for(@exfold) do |f| %>
+  <% if @exfold.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@exfold.errors.count, "error") %> prohibited this exfold from being saved:</h2>
+
+      <ul>
+      <% @exfold.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.text_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :parent_id %><br />
+    <%= f.text_field :parent_id %>
+  </div>
+  <div class="field">
+    <%= f.label :path %><br />
+    <%= f.text_field :path %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/test/unit/helpers
+END
+pagesviews_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot-ss/train/LV-063/!svn/ver/1817/Web%20UI/NewCMS/test/unit/helpers/pagesviews_helper_test.rb
+END
+xfolds_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/test/unit/helpers/xfolds_helper_test.rb
+END
+exfilens_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/test/unit/helpers/exfilens_helper_test.rb
+END
+xfiles_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot-ss/train/LV-063/!svn/ver/1755/Web%20UI/NewCMS/test/unit/helpers/xfiles_helper_test.rb
+END
+exfolds_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/test/unit/helpers/exfolds_helper_test.rb
+END
+xfolders_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot-ss/train/LV-063/!svn/ver/1789/Web%20UI/NewCMS/test/unit/helpers/xfolders_helper_test.rb
+END

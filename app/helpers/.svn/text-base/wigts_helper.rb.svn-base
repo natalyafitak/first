@@ -1,0 +1,2 @@
+module WigtsHelper
+end

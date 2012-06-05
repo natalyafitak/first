@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @xfile.Name %>
+</p>
+
+<p>
+  <b>Size:</b>
+  <%= @xfile.Size %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @xfile.Description %>
+</p>
+
+<p>
+  <b>Way:</b>
+  <%= @xfile.Way %>
+</p>
+
+
+<%= link_to 'Edit', edit_xfile_path(@xfile) %> |
+<%= link_to 'Back', xfiles_path %>

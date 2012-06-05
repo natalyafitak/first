@@ -1,0 +1,29 @@
+<h1>Listing exfolds</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Parent</th>
+    <th>Path</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @exfolds.each do |exfold| %>
+  <tr>
+    <td><%= exfold.id %></td>
+    <td><%= exfold.name %></td>
+    <td><%= exfold.parent_id %></td>
+    <td><%= exfold.path %></td>
+    <td><%= link_to 'Show', exfold %></td>
+    <td><%= link_to 'Edit', edit_exfold_path(exfold) %></td>
+    <td><%= link_to 'Destroy', exfold, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Exfold', new_exfold_path %>

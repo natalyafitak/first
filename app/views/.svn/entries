@@ -1,0 +1,76 @@
+9
+
+dir
+2206
+https://svnnew.softserveinc.com/svnroot-ss/train/LV-063/Web%20UI/NewCMS/app/views
+https://svnnew.softserveinc.com/svnroot-ss/train/LV-063
+
+
+
+2012-06-04T13:12:21.205547Z
+2130
+oproktc
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d8b58755-7683-4ca4-9785-430fe5fa10ad
+
+banners
+dir
+
+cmsmenus
+dir
+
+comments
+dir
+
+devise
+dir
+
+exfolds
+dir
+
+fileresource
+dir
+
+layouts
+dir
+
+modres
+dir
+
+newslistpages
+dir
+
+newspages
+dir
+
+pages
+dir
+
+pagesviews
+dir
+
+profiles
+dir
+
+users
+dir
+
+wigts
+dir
+
+xfiles
+dir
+

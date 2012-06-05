@@ -1,0 +1,13 @@
+Ext.define('CMS.store.Modulegrid',{
+	extend:'Ext.data.Store',
+	model:'CMS.model.Modulegrid',
+	autoLoad:true,
+	proxy:{
+		type:'rest',
+		url:'/modres',
+		format:'json',
+		reader:{
+			root:'modres'
+		}
+	}
+})

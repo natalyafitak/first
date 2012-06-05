@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 1
+  name: MyString
+  title: MyString
+  content: MyText
+  createdate: 2012-05-29 00:52:36
+  author: MyString
+  status: MyString
+  parent_id: 1
+  module_id: 1
+
+two:
+  id: 1
+  name: MyString
+  title: MyString
+  content: MyText
+  createdate: 2012-05-29 00:52:36
+  author: MyString
+  status: MyString
+  parent_id: 1
+  module_id: 1

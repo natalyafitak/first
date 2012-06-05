@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot-ss/train/LV-063/!svn/ver/1856/Web%20UI/NewCMS/config/initializers
+END
+mime_types.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot-ss/train/LV-063/!svn/ver/902/Web%20UI/NewCMS/config/initializers/mime_types.rb
+END
+secret_token.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot-ss/train/LV-063/!svn/ver/1816/Web%20UI/NewCMS/config/initializers/secret_token.rb
+END
+setup_mail.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot-ss/train/LV-063/!svn/ver/1338/Web%20UI/NewCMS/config/initializers/setup_mail.rb
+END
+session_store.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot-ss/train/LV-063/!svn/ver/902/Web%20UI/NewCMS/config/initializers/session_store.rb
+END
+recaptcha.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svnroot-ss/train/LV-063/!svn/ver/1853/Web%20UI/NewCMS/config/initializers/recaptcha.rb
+END
+inflections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot-ss/train/LV-063/!svn/ver/902/Web%20UI/NewCMS/config/initializers/inflections.rb
+END
+active_admin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svnroot-ss/train/LV-063/!svn/ver/1101/Web%20UI/NewCMS/config/initializers/active_admin.rb
+END
+devise.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svnroot-ss/train/LV-063/!svn/ver/2208/Web%20UI/NewCMS/config/initializers/devise.rb
+END
+backtrace_silencers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot-ss/train/LV-063/!svn/ver/902/Web%20UI/NewCMS/config/initializers/backtrace_silencers.rb
+END
+wrap_parameters.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot-ss/train/LV-063/!svn/ver/902/Web%20UI/NewCMS/config/initializers/wrap_parameters.rb
+END

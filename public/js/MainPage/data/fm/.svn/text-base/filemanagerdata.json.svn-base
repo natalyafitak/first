@@ -1,0 +1,28 @@
+{
+	success:true,
+	leaf:false,
+	expanded:true,
+	fm:[{
+		id:1,
+		parent_id:0,
+		text:'images',
+		expanded:true,
+		leaf:false,
+		files:[{
+			id:1,
+			folder_id:1,
+			filename:'1.jpg',
+			icon:'1'
+			}],
+		fm:[{
+			id:2,
+			parent_id:1,
+			text:'jpg',
+			leaf:true,
+			files:[{
+				filename:'2.jpg',
+				icon:'2'
+			}]
+		}]
+	}]
+}

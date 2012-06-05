@@ -1,0 +1,95 @@
+9
+
+dir
+2206
+https://svnnew.softserveinc.com/svnroot-ss/train/LV-063/Web%20UI/NewCMS/public/js/MainPage/app/view
+https://svnnew.softserveinc.com/svnroot-ss/train/LV-063
+
+
+
+2012-06-04T13:12:21.205547Z
+2130
+oproktc
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d8b58755-7683-4ca4-9785-430fe5fa10ad
+
+FM
+dir
+
+Viewport.js
+file
+
+
+
+
+2012-05-29T09:44:28.000000Z
+da71a3accabeb7e389015374cd3e1ea6
+2012-06-03T10:48:31.635805Z
+2076
+spidltc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3262
+
+banner
+dir
+
+blocks
+dir
+
+menu
+dir
+
+module
+dir
+
+ournews
+dir
+
+page
+dir
+
+profile
+dir
+
+upload
+dir
+
+user
+dir
+
+widview
+dir
+

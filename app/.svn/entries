@@ -1,0 +1,49 @@
+9
+
+dir
+2206
+https://svnnew.softserveinc.com/svnroot-ss/train/LV-063/Web%20UI/NewCMS/app
+https://svnnew.softserveinc.com/svnroot-ss/train/LV-063
+
+
+
+2012-06-04T13:12:21.205547Z
+2130
+oproktc
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+d8b58755-7683-4ca4-9785-430fe5fa10ad
+
+admin
+dir
+
+assets
+dir
+
+controllers
+dir
+
+helpers
+dir
+
+mailers
+dir
+
+models
+dir
+
+views
+dir
+

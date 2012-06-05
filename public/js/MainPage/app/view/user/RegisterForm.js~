@@ -1,0 +1,122 @@
+Ext.define('CMS.view.user.RegisterForm', {
+	extend : 'Ext.window.Window',
+	alias : 'widget.registerform',
+	id : 'registerform',
+	title : 'Registration',
+	width : 400,
+	height : 400,
+	layout : 'fit',
+	resizable : false,
+	draggable : false,
+	border : false,
+	modal : true,
+
+	items : [{
+		xtype : 'form',
+		id : 'new_user',
+		defaults : {
+			margin : 10,
+			width : 350,
+			height : 'auto'
+		},
+		items : [{
+			fieldLabel : 'First Name',
+			xtype : 'textfield',
+			name : 'user[first_name]',
+			blankText : 'Enter your first name',
+			allowBlank : false,
+			boxMaxWidth : 150,
+			minLength : 2,
+			msgTarget : 'side',
+			anchor : '100%'
+		}, {
+			fieldLabel : 'Last Name',
+			name : 'user[last_name]',
+			xtype : 'textfield',
+			blankText : 'Enter your last name',
+			allowBlank : false,
+			boxMaxWidth : 150,
+			minLength : 2,
+			msgTarget : 'side',
+			anchor : '100%'
+		}, {
+			fieldLabel : 'Email',
+			name : 'user[email]',
+			xtype : 'textfield',
+			anchor : '100%',
+			vtype : 'email',
+			allowBlank : false,
+			blankText : 'Enter your email!',
+			maxLength : 100,
+			maxLengthText : 'Max length 100',
+			minLength : 3,
+			boxMaxWidth : 300,
+			msgTarget : 'side'
+		}, {
+			fieldLabel : 'Password',
+			name : 'user[password]',
+			inputType : 'password',
+			xtype: 'textfield',
+			allowBlank : false,
+			blankText : 'Enter your password',
+			maxLength : 30,
+			growMax : 50,
+			boxMaxWidth : 300,
+			maxLengthText : 'max length 30',
+			minLength : 6,
+			anchor : '100%',
+			msgTarget : 'side'
+		}, {
+			fieldLabel : 'Confirm password',
+			name : 'user[password_confirmation]',
+			inputType : 'password',
+			xtype: 'textfield',
+			allowBlank : false,
+			blankText : 'Confirm your password',
+			maxLength : 30,
+			growMax : 50,
+			boxMaxWidth : 300,
+			maxLengthText : 'max length 30',
+			minLength : 6,
+			anchor : '100%',
+			msgTarget : 'side'
+		},{
+			fieldLabel : 'Phone Number',
+			name : 'user[phone_number]',
+			xtype : 'textfield',
+			allowBlank : false,
+			boxMaxWidth : 150,
+			minLength : 2,
+			msgTarget : 'side',
+			anchor : '100%'
+		}, {
+			xtype : 'fieldcontainer',
+			fieldLabel : 'Your gender',
+			defaultType : 'radiofield',
+			items : [{
+				boxLabel : 'Man',
+				name : 'user[gender]',
+				inputValue : '1'
+			}, {
+				boxLabel : 'Woman',
+				name : 'user[gender]',
+				inputValue : '2'
+			}],
+		}, {
+			fieldLabel : 'Date of birth',
+			name : 'user[date_of_birth_]',
+			xtype : 'datefield',
+			emptyText : 'month/day/year',
+			invalidText : '"{0}" please enter correct date. "{1}"',
+			msgTarget : 'side',
+			anchor : '100%'
+
+		}, {
+			xtype : 'button',
+			text : 'Submit',
+			id : 'register',
+			buttonAlign : 'center'
+		}]
+	}]
+
+});

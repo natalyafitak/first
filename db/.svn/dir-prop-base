@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 43
+development.sqlite3
+test.sqlite3
+schema.rb
+
+K 3
+xxx
+V 10
+svn:ignore
+END

@@ -1,0 +1,6 @@
+<h1>Editing modre</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @modre %> |
+<%= link_to 'Back', modres_path %>

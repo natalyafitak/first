@@ -1,0 +1,6 @@
+<h1>Editing newspage</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @newspage %> |
+<%= link_to 'Back', newspages_path %>

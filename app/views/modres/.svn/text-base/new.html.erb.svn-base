@@ -1,0 +1,5 @@
+<h1>New modre</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', modres_path %>

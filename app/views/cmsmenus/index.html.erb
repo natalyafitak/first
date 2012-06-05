@@ -1,0 +1,31 @@
+<h1>Listing cmsmenus</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Parent ID</th>
+    <th>Url</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cmsmenus.each do |cmsmenu| %>
+  <tr>
+    <td><%= cmsmenu.id %></td>
+    <td><%= cmsmenu.title %></td>
+    <td><%= cmsmenu.cmsmenu_id %></td>
+    <td><%= cmsmenu.url %></td>
+    <td><%= link_to 'Show', cmsmenu %></td>
+    <td><%= link_to 'Edit', edit_cmsmenu_path(cmsmenu) %></td>
+    <td><%= link_to 'Destroy', cmsmenu, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Создать новый пункт меню', new_cmsmenu_path %>
+
+

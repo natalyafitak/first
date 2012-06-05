@@ -1,0 +1,29 @@
+<h1>Listing wigts</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Content</th>
+    <th>Version</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @wigts.each do |wigt| %>
+  <tr>
+    <td><%= wigt.id %></td>
+    <td><%= wigt.title %></td>
+    <td><%= wigt.content %></td>
+    <td><%= wigt.version %></td>
+    <td><%= link_to 'Show', wigt %></td>
+    <td><%= link_to 'Edit', edit_wigt_path(wigt) %></td>
+    <td><%= link_to 'Destroy', wigt, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Wigt', new_wigt_path %>

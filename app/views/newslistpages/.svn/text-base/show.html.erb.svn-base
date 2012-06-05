@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @newslistpage.title %>
+</p>
+
+<p>
+  <b>Contenturl:</b>
+  <%= @newslistpage.contenturl %>
+</p>
+
+<p>
+  <b>Imageurl:</b>
+  <%= @newslistpage.imageurl %>
+</p>
+
+<p>
+  <b>Anounce:</b>
+  <%= @newslistpage.anounce %>
+</p>
+
+<p>
+  <b>Dateofnews:</b>
+  <%= @newslistpage.dateofnews %>
+</p>
+
+<p>
+  <b>Pageid:</b>
+  <%= @newslistpage.pageid %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @newslistpage.author %>
+</p>
+
+
+<%= link_to 'Edit', edit_newslistpage_path(@newslistpage) %> |
+<%= link_to 'Back', newslistpages_path %>

@@ -1,0 +1,29 @@
+<h1>Listing xfiles</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Size</th>
+    <th>Description</th>
+    <th>Way</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @xfiles.each do |xfile| %>
+  <tr>
+    <td><%= xfile.Name %></td>
+    <td><%= xfile.Size %></td>
+    <td><%= xfile.Description %></td>
+    <td><%= xfile.Way %></td>
+    <td><%= link_to 'Show', xfile %></td>
+    <td><%= link_to 'Edit', edit_xfile_path(xfile) %></td>
+    <td><%= link_to 'Destroy', xfile, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Xfile', new_xfile_path %>

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot-ss/train/LV-063/!svn/ver/2131/Web%20UI/NewCMS/db/migrate
+END
+20120621230574_add_role_id_to_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot-ss/train/LV-063/!svn/ver/2131/Web%20UI/NewCMS/db/migrate/20120621230574_add_role_id_to_user.rb
+END
+20120621230558_create_roles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot-ss/train/LV-063/!svn/ver/1631/Web%20UI/NewCMS/db/migrate/20120621230558_create_roles.rb
+END
+20120621230573_add_userid_to_profiles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot-ss/train/LV-063/!svn/ver/2130/Web%20UI/NewCMS/db/migrate/20120621230573_add_userid_to_profiles.rb
+END
+20120621230567_add_modresid_to_pagesviews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot-ss/train/LV-063/!svn/ver/2076/Web%20UI/NewCMS/db/migrate/20120621230567_add_modresid_to_pagesviews.rb
+END
+20120621230572_change_to_profiles_again.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot-ss/train/LV-063/!svn/ver/2130/Web%20UI/NewCMS/db/migrate/20120621230572_change_to_profiles_again.rb
+END
+20120617074918_create_newspageslists.rb
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svnroot-ss/train/LV-063/!svn/ver/1816/Web%20UI/NewCMS/db/migrate/20120617074918_create_newspageslists.rb
+END
+20120621230560_create_xfolders.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot-ss/train/LV-063/!svn/ver/1789/Web%20UI/NewCMS/db/migrate/20120621230560_create_xfolders.rb
+END
+20120621230563_create_xfolds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/db/migrate/20120621230563_create_xfolds.rb
+END
+20120621230557_add_role_id_to_user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot-ss/train/LV-063/!svn/ver/1631/Web%20UI/NewCMS/db/migrate/20120621230557_add_role_id_to_user.rb
+END
+20120621230561_create_pagesviews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot-ss/train/LV-063/!svn/ver/1817/Web%20UI/NewCMS/db/migrate/20120621230561_create_pagesviews.rb
+END
+20120621230564_create_exfolds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/db/migrate/20120621230564_create_exfolds.rb
+END
+20120621230566_create_exfilens.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot-ss/train/LV-063/!svn/ver/1947/Web%20UI/NewCMS/db/migrate/20120621230566_create_exfilens.rb
+END
+20120621230559_create_xfiles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot-ss/train/LV-063/!svn/ver/1755/Web%20UI/NewCMS/db/migrate/20120621230559_create_xfiles.rb
+END
+20120621230562_add_fields_to_profiles.rb
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svnroot-ss/train/LV-063/!svn/ver/1948/Web%20UI/NewCMS/db/migrate/20120621230562_add_fields_to_profiles.rb
+END

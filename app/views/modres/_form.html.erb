@@ -1,0 +1,33 @@
+<%= form_for(@modre) do |f| %>
+  <% if @modre.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@modre.errors.count, "error") %> prohibited this modre from being saved:</h2>
+
+      <ul>
+      <% @modre.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :id %><br />
+    <%= f.number_field :id %>
+  </div>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :version %><br />
+    <%= f.number_field :version %>
+  </div>
+  <div class="field">
+    <%= f.label :description %><br />
+    <%= f.text_area :description %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

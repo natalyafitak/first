@@ -1,0 +1,40 @@
+<h1>Listing newslistpages</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Contenturl</th>
+    <th>Imageurl</th>
+    <th>Anounce</th>
+    <th>Dateofnews</th>
+    <th>Pageid</th>
+    <th>Author</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @newslistpages.each do |newslistpage| %>
+  <tr>
+    <td><%= newslistpage.title %></td>
+    <td><%= newslistpage.contenturl %></td>
+    <td><%= newslistpage.imageurl %></td>
+    <td><%= newslistpage.anounce %></td>
+    <td><%= newslistpage.dateofnews %></td>
+    <td><%= newslistpage.pageid %></td>
+    <td><%= newslistpage.author %></td>
+    
+    <td><%= link_to 'Show', newslistpage %></td>
+
+    <td><%= link_to 'Edit', edit_newslistpage_path(newslistpage) %></td>
+
+
+    <td><%= link_to 'Destroy', newslistpage, confirm: 'Are you sure?', method: :delete %></td>
+
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Newslistpage', new_newslistpage_path %>

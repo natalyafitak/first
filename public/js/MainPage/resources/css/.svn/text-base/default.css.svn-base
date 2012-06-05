@@ -1,0 +1,44 @@
+.login-btn{
+	/*width: 50px;
+	height: 50px;*/
+	border:0;
+	background:none;
+	/*border: none; */
+	
+}
+
+.fb-icon{
+	background-image: url(../im/facebook.jpg);
+/*	background-position: 50% 50%;*/
+	clip:rect(0px, auto, auto, 0px) !important;  
+}
+.vk-icon{
+	background-image: url(../im/vk.png);
+/*	background-position: 50% 50%;*/
+	clip:rect(0px, auto, auto, 0px) !important;  
+}
+
+.tw-icon{
+	background-image: url(../im/twitter.jpg);
+/*	background-position: 50% 50%;*/
+	clip:rect(0px, auto, auto, 0px) !important;  
+}
+.x-panel-body-default-framed {
+background: none;
+border-color: #FFF;
+color: black;
+border-width: 0;
+border-style: none;
+}
+.view-share-border{
+border: 20 20 200 20;
+}
+
+/*.logo {
+	
+	/*background-image: url(../im/Logosweb.png);*/
+	position: absolute !important;
+	right: 0 !important;
+}*/
+
+

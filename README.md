@@ -1,4 +1,4 @@
-first
+New CMS
 =====
 
-cms
+this is simple CMS system.
